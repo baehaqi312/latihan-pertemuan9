@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// By luthfi baehaqi
+
 Route::get('/', function () {
     return view('contents.beranda');
 }) ->name('beranda');
